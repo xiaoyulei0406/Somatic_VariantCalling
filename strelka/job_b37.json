@@ -1,0 +1,23 @@
+{
+	"Name":"somatic-strelka",
+	"Pipeline":"somatic-strelka",
+	"InputDataSet":{
+		"WorkflowInput":{
+			"strelka.sample_info":[
+				[
+					["CGU_OSCC_01_T","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_01_T_1_cut.fastq","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_01_T_2_cut.fastq"],
+					["CGU_OSCC_01_N","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_01_N_1_cut.fastq","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_01_N_2_cut.fastq"]
+				],
+				[
+					["CGU_OSCC_04_T","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_04_T_1_cut.fastq","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_04_T_2_cut.fastq"],
+					["CGU_OSCC_04_N","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_04_N_1_cut.fastq","vol2/xtvol@yingyun01:yingyun01/data/wes_pipeline_data/oscc/test/CGU_OSCC_04_N_2_cut.fastq"]
+				]
+			],
+			"strelka.vs_list":[
+				["CGU_OSCC_01_T","CGU_OSCC_01_N"],["CGU_OSCC_04_T","CGU_OSCC_04_N"]
+			],
+			"strelka.sample_name":["CGU_OSCC_01","CGU_OSCC_04"],
+			"strelka.Ref": "vol2/xtvol@yingyun01:yingyun01/data/refs/b37/human_g1k_v37.fasta"
+		}
+	}
+}

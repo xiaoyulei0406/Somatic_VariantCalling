@@ -1,0 +1,19 @@
+{
+	"Name":"somatic-strelka",
+	"Pipeline":"somatic-strelka",
+	"InputDataSet":{
+		"WorkflowInput":{
+			"strelka.sample_info":[
+				[
+					["tumor","vol2/xtvol@yingyun01:yingyun01/data/giab/mixture/24385-12878-30-200_R1_001.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/giab/mixture/24385-12878-30-200_R2_001.fastq.gz"],
+					["normal","vol2/xtvol@yingyun01:yingyun01/data/giab/mixture/24385-200_AH5G7WCCXX_S4_L004_R1_001.fastq.gz","vol2/xtvol@yingyun01:yingyun01/data/giab/mixture/24385-200_AH5G7WCCXX_S4_L004_R2_001.fastq.gz"]
+				]
+			],
+			"strelka.vs_list":[
+				["tumor","normal"]
+			],
+			"strelka.sample_name":["tumor","normal"],
+			"strelka.Ref": "vol2/xtvol@yingyun01:yingyun01/data/refs/b37/human_g1k_v37.fasta"
+		}
+	}
+}

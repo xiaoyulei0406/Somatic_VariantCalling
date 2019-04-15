@@ -1,0 +1,9 @@
+{
+    "Name" : "somatic-strelka",
+    "Type" : "WDL",
+    "Description" : "A wdl pipeline based on Strelka pipline",
+    "WorkDir" : "vol2/xtvol@yingyun01:yingyun01/data/output",
+    "Wdl" : {
+	    "WorkflowFile" : "main.wdl"
+    }
+}
