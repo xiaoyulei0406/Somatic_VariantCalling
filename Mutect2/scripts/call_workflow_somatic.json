@@ -1,0 +1,10 @@
+{
+    "Name" : "somatic-mutect2_1000g",
+    "Type" : "WDL",
+    "Description" : "A wdl pipeline for WES",
+    "WorkDir" : "vol2/xtvol@yingyun01:yingyun01/data/output",
+    "Wdl" : {
+	    "WorkflowFile" : "demo_somatic_0118.wdl"
+
+    }
+}
